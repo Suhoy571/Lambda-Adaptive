@@ -1,0 +1,294 @@
+/*----------Header-----------*/
+#hero {
+    background: url("../img/bg.png") no-repeat;
+    background-size: cover;
+    min-height: 750px;
+}
+
+.navbar {
+    width: 100%;
+    background: none !important;
+}
+
+.navbar .navbar-toggler {
+    cursor: pointer;
+}
+
+.navbar .nav-link {
+    font-size: 21px;
+    font-weight: 400;
+    color: white !important;
+    font-family: 'Gentium Book Basic', serif;
+    transition: 0.5s;
+}
+
+.navbar .nav-link:hover {
+    color: #dab33e !important;
+}
+
+.navbar .fa {
+    color: #dab33e;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+.fa:hover {
+    color: white;
+}
+
+.navbar .nav-item {
+    padding: 0 5px;
+}
+
+.row h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    color: white;
+}
+
+.text-center {
+    padding-top: 70px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 40px;
+    opacity: 0.9;
+}
+
+.hero-content {
+    text-align: center !important;
+}
+
+.section-btn {
+    padding-top: 100px;
+    text-align: center !important;
+}
+
+.section-btn .btn {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 18px 60px;
+    margin: 0 15px;
+    transition: 0.5s;
+    border: none;
+    text-align: center !important;
+}
+
+.section-btn .btn-default {
+    color: black;
+}
+
+.btn-primary {
+    background: black !important;
+    opacity: 0.6;
+}
+
+.btn-primary:hover {
+    background: black !important;
+    opacity: 1;
+}
+
+.btn-default {
+    background: white !important;
+    opacity: 0.6;
+    color: black;
+}
+
+.btn-default:hover {
+    opacity: 1;
+    background: white !important;
+    color: black;
+}
+
+/*----------Food-----------*/
+
+#food {
+    background: url("../img/pattern.png") no-repeat;
+    background-size: cover;
+    min-height: 710px;
+}
+
+.food-content h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: #cc9900;
+    padding-top: 70px;
+}
+
+.food-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.food-content {
+    padding-left: 40px;
+    text-align: center !important;
+    max-width: 450px;
+}
+
+.dish {
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+/*----------Ingredients-----------*/
+
+#ingredients {
+    background: white url("../img/ingredients.png") no-repeat;
+    background-size: cover;
+    min-height: 760px;
+}
+
+.ingredients-content h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: white;
+    padding-top: 70px;
+}
+
+.ingredients-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.grad {
+    margin-top: 90px;
+    margin-left: 500px;
+    display: block;
+    height: 557px;
+    width: 570px;
+    background-image: radial-gradient(ellipse, transparent 10%, black);
+}
+
+.food-pictures {
+    margin-top: 50px;
+}
+
+.food-pictures img {
+    margin-right: 25px;
+}
+
+.food-pictures img:last-child {
+    margin-right: 0;
+}
+
+/*--------------------Menu----------------------*/
+#menu {
+    background: white url("../img/menuPattern.png") no-repeat;
+    background-size: cover;
+    min-height: 994px;
+}
+
+.appetisers {
+    margin-top: 100px;
+}
+
+.nameNumber h3 {
+    font-size: 21px;
+    border-bottom: solid 1px #c89f2d;
+}
+
+.nameNumber h3 span {
+    display: block;
+    position: absolute;
+    right: 14px;
+    top: 181px;
+}
+
+.menu-content h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: #cc9900;
+}
+
+/*------------------Adaptive---------------------*/
+
+@media (max-width: 34em) {
+    #hero {
+        background-position: 100%;
+    }
+
+    .navbar {
+        min-width: 100%;
+        background: inherit;
+    }
+
+    .navbar .nav-item {
+        padding: 0;
+    }
+
+    .row h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .navbar .nav-link {
+        font-size: 15px;
+        font-weight: 400;
+        color: white !important;
+        font-family: 'Gentium Book Basic', serif;
+        transition: 0.5s;
+    }
+
+    .navbar .nav-link:hover {
+        color: #dab33e !important;
+    }
+
+    .text-center {
+        margin-bottom: 70px;
+    }
+
+    .section-btn .text-md-center {
+        text-align: center !important;
+        margin: 20px;
+    }
+
+    .section-btn .btn {
+        padding: 18px 21px;
+        text-align: center !important;
+        margin-bottom: 20px;
+    }
+
+    /*----------Food-----------*/
+    .food-content {
+        padding: 0;
+    }
+
+    .food-content h2 {
+        font-size: 30px;
+        padding-top: 70px;
+    }
+
+    .food-content p {
+        font-size: 19px;
+    }
+
+    .dish {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    /*---------Ingredients----------*/
+    .ingredients-content {
+        text-align: center !important;
+    }
+
+    .grad {
+        text-align: center !important;
+        width: auto;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .food-pictures img {
+        margin-right: 0;
+        margin-bottom: 50px;
+        width: auto;
+        height: auto;
+    }
+}
