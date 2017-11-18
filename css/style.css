@@ -193,10 +193,9 @@
 }
 
 .menu-item h3 span {
-    display: block;
+    display: inline-block;
     position: absolute;
     right: 14px;
-    top: 0;
 }
 
 .menu-content h2 {
