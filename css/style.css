@@ -187,16 +187,16 @@
     margin-top: 100px;
 }
 
-.nameNumber h3 {
+.menu-item h3 {
     font-size: 21px;
     border-bottom: solid 1px #c89f2d;
 }
 
-.nameNumber h3 span {
+.menu-item h3 span {
     display: block;
     position: absolute;
     right: 14px;
-    top: 181px;
+    top: 0;
 }
 
 .menu-content h2 {
