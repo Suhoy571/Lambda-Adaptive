@@ -126,12 +126,19 @@
 .food-content {
     padding-left: 40px;
     text-align: center !important;
-    max-width: 450px;
+    max-width: 450px; /*Починить*/
+}
+
+.food-content img {
+    width: auto;
+    height:auto;
 }
 
 .dish {
     margin-top: 35px;
     margin-left: 40px;
+    width: auto;
+    height: auto;
 }
 
 /*----------Ingredients-----------*/
@@ -222,7 +229,69 @@
 
 /*------------------Adaptive---------------------*/
 
-@media (max-width: 34em) {
+@media (max-width: 1200px) {
+    .section-btn {
+        margin-bottom: 50px
+    }
+
+    #food {
+        text-align: center !important;
+    }
+
+    .grad {
+       margin-left: 260px;
+    }
+
+    .dish {
+        float: none;
+    }
+
+    .right-menu {
+        margin-left: 160px;
+    }
+}
+
+@media (max-width: 992px) {
+    .section-btn {
+        margin-bottom: 50px
+    }
+
+    #food {
+        text-align: center !important;
+    }
+
+    .grad {
+        margin-left: 0;
+    }
+
+    .right-menu {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-btn {
+        margin-bottom: 50px
+    }
+
+    #food {
+        text-align: center !important;
+    }
+
+    .dish {
+        display: none;
+    }
+
+    .grad {
+        margin-left: 0;
+    }
+
+    .right-menu {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 544px) {
     #hero {
         background-position: 100%;
     }
@@ -301,9 +370,11 @@
     }
 
     .food-pictures img {
-        margin-right: 0;
-        margin-bottom: 50px;
-        width: auto;
-        height: auto;
+display: none;
+    }
+
+    /*---------------menu-----------------*/
+    .right-menu {
+        margin: 0;
     }
 }
