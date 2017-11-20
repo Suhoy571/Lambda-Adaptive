@@ -131,7 +131,7 @@
 
 .food-content img {
     width: auto;
-    height:auto;
+    height: auto;
 }
 
 .dish {
@@ -168,7 +168,7 @@
     display: block;
     height: 557px;
     width: 570px;
-    background-image: radial-gradient(ellipse, transparent 10%, black);
+    background-image: radial-gradient(ellipse, transparent 0%, black);
 }
 
 .food-pictures {
@@ -227,6 +227,46 @@
     margin-left: 170px;
 }
 
+/*--------------Barbecue---------------*/
+
+#barbeque {
+    background: white url("../img/Barbecuee.png") no-repeat;
+    background-size: cover;
+    min-height: 760px;
+}
+
+.central-section {
+    margin: 0 auto;
+}
+
+.barbeque-content h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: white;
+    padding-top: 70px;
+}
+
+.barbeque-content blockquote {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+
+.barbeque-content p {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 18px;
+    color: white;
+}
+
+.central-section {
+    text-align: center !important;
+    margin-top: 90px;
+    height: 557px;
+    width: 770px;
+    background-image: radial-gradient(ellipse, transparent -5%, black);
+}
+
 /*------------------Adaptive---------------------*/
 
 @media (max-width: 1200px) {
@@ -239,7 +279,7 @@
     }
 
     .grad {
-       margin-left: 260px;
+        margin-left: 260px;
     }
 
     .dish {
@@ -267,6 +307,20 @@
     .right-menu {
         margin-left: 50px;
     }
+
+    .barbeque-content h2 {
+        font-size: 28px;
+        padding-top: 70px;
+    }
+
+    .barbeque-content blockquote {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .barbeque-content p {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -288,6 +342,20 @@
 
     .right-menu {
         margin-left: 120px;
+    }
+
+    .barbeque-content h2 {
+        font-size: 28px;
+        padding-top: 70px;
+    }
+
+    .barbeque-content blockquote {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .barbeque-content p {
+        font-size: 18px;
     }
 }
 
@@ -370,11 +438,28 @@
     }
 
     .food-pictures img {
-display: none;
+        display: none;
     }
 
     /*---------------menu-----------------*/
     .right-menu {
         margin: 0;
+    }
+
+    /*--------------barbeque---------------*/
+
+
+    .barbeque-content h2 {
+        font-size: 28px;
+        padding-top: 50px;
+    }
+
+    .barbeque-content blockquote {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .barbeque-content p {
+        font-size: 16px;
     }
 }
