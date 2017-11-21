@@ -302,6 +302,36 @@
     max-width: 450px; /*Починить*/
 }
 
+.form-group label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #cc9900;
+    font-weight: bold;
+}
+
+.form-control {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #7c7c7c;
+    opacity: 0.7;
+}
+
+.form-group .form-control{
+    border-radius: 0;
+    height: 36px;
+}
+
+.form-group .form-control:focus {
+    border-color:#cc9900;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.form-group .btn-primary {
+    height: 36px;
+}
+
 /*------------------Adaptive---------------------*/
 
 @media (max-width: 1200px) {

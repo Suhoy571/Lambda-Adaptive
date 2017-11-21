@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700" rel="stylesheet">
-    <script src="../OneDrive/MySites/Eventide/js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
 </head>
 <body>
 
@@ -272,7 +272,33 @@
                     Delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check
                     us out! Perfect materials and freshly baked food.
                 </p>
+                <form id="myForm" novalidate="novalidate" class="text-lg-left">
+                    <div class="row ">
+                        <div class="form-group col-md-6">
+                            <label>Name</label>
+                            <input type="text" class="form-control" name="name" placeholder="your name *" required="">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="your email *"
+                                   required="">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Date</label>
+                            <input type="date" class="form-control" name="date" placeholder="date *" required="">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Party number</label>
+                            <input type="number" class="form-control" name="partyNumber" placeholder="party number"
+                                   required="">
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Book now!
+                        </button>
+                    </div>
+                </form>
             </div>
+
         </div>
     </div>
 </section>
