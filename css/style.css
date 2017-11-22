@@ -78,6 +78,7 @@
 
 .section-btn .btn-default {
     color: black;
+    border-radius: 0;
 }
 
 .btn-primary {
@@ -269,6 +270,10 @@
 
 /*-----------------Book-now------------------*/
 
+#myForm {
+    margin-top: 36px;
+}
+
 #booknow {
     background: url("../img/pattern.png") no-repeat;
     background-size: cover;
@@ -279,7 +284,11 @@
     padding-top: 100px;
 }
 
-.booknow-pictures-item {
+.booknow-pictures-item:first-child {
+    padding-right: 20px;
+}
+
+.booknow-pictures-item:last-child {
     padding-right: 20px;
 }
 
@@ -297,7 +306,7 @@
 }
 
 .booknow-content-right {
-    padding-left: 40px;
+    padding-left: 47px;
     text-align: center !important;
     max-width: 450px; /*Починить*/
 }
@@ -315,21 +324,29 @@
     font-style: italic;
     color: #7c7c7c;
     opacity: 0.7;
+    width: auto;
 }
 
-.form-group .form-control{
+.form-group .form-control {
     border-radius: 0;
     height: 36px;
 }
 
 .form-group .form-control:focus {
-    border-color:#cc9900;
+    border-color: #cc9900;
     box-shadow: none;
     outline: 0 none;
 }
 
-.form-group .btn-primary {
+.btn-book {
     height: 36px;
+    width: 200px;
+    border-radius: 0;
+    margin: 30px auto 0;
+    background-color: #c89f2d;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*------------------Adaptive---------------------*/
@@ -351,8 +368,27 @@
         float: none;
     }
 
+    .food-content {
+        margin: 0 auto;
+        max-width: none;
+        width: auto;
+    }
+
     .right-menu {
         margin-left: 160px;
+    }
+
+    .booknow-pictures {
+        margin: 0 auto;
+    }
+
+    .booknow-pictures-item {
+        margin: 0 auto;
+    }
+
+    .booknow-content-right {
+        padding-left: 0;
+        margin: 0 auto;
     }
 }
 
@@ -363,6 +399,12 @@
 
     #food {
         text-align: center !important;
+    }
+
+    .food-content {
+        margin: 0 auto;
+        max-width: none;
+        width: auto;
     }
 
     .grad {
@@ -386,6 +428,15 @@
     .barbeque-content p {
         font-size: 18px;
     }
+
+    .food-content {
+        margin: 0 auto;
+    }
+
+    .booknow-content-right {
+        padding-left: 0;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -395,6 +446,12 @@
 
     #food {
         text-align: center !important;
+    }
+
+    .food-content {
+        margin: 0 auto;
+        max-width: none;
+        width: auto;
     }
 
     .dish {
@@ -421,6 +478,11 @@
 
     .barbeque-content p {
         font-size: 18px;
+    }
+
+    .booknow-content-right {
+        padding-left: 0;
+        margin: 0 auto;
     }
 }
 
@@ -524,5 +586,15 @@
 
     .barbeque-content p {
         font-size: 16px;
+    }
+
+    /**/
+    #myForm {
+        padding-left: 30px;
+
+    }
+
+    .booknow-pictures {
+        display: none;
     }
 }
