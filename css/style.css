@@ -275,7 +275,8 @@
 }
 
 #booknow {
-    background: url("../img/pattern.png") no-repeat;
+    background-repeat: no-repeat;
+    background-image: url("../img/pattern.png");
     background-size: cover;
     min-height: 710px;
 }
@@ -347,6 +348,54 @@
     color: white;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+/*---------------Footer-----------------*/
+#footer {
+    background: black no-repeat;
+    background-size: cover;
+    min-height: 320px;
+}
+
+.footer-first-column h2,
+.footer-second-column h2,
+.footer-third-column h2 {
+    margin-top: 60px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    color: white;
+}
+
+.footer-first-column img,
+.footer-second-column img,
+.footer-third-column img {
+    padding: 5px;
+}
+
+.footer-first-column p,
+.footer-second-column p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: grey;
+}
+
+.footer-third-column p {
+    color: white;
+}
+
+.footer-column-icons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-column-icons .icons-item {
+    display: inline-block;
+    font-size: 22px;
+    padding: 15px 5px 0 0;
+    transition: 0.5s;
+    color: white;
 }
 
 /*------------------Adaptive---------------------*/
@@ -372,6 +421,7 @@
         margin: 0 auto;
         max-width: none;
         width: auto;
+        padding-left: 0;
     }
 
     .right-menu {
@@ -405,6 +455,7 @@
         margin: 0 auto;
         max-width: none;
         width: auto;
+        padding-left: 0;
     }
 
     .grad {
@@ -452,6 +503,7 @@
         margin: 0 auto;
         max-width: none;
         width: auto;
+        padding-left: 0;
     }
 
     .dish {
@@ -483,6 +535,27 @@
     .booknow-content-right {
         padding-left: 0;
         margin: 0 auto;
+    }
+
+    /*-----------Footer-----------*/
+    .footer-first-column h2,
+    .footer-second-column h2,
+    .footer-third-column h2 {
+        font-size: 30px;
+        text-align: center !important;
+    }
+
+    .footer-first-column p,
+    .footer-second-column p,
+    .footer-third-column p {
+        font-size: 16px;
+        text-align: center !important;
+    }
+
+    .footer-first-column,
+    .footer-second-column,
+    .footer-third-column {
+        float: none;
     }
 }
 
@@ -596,5 +669,30 @@
 
     .booknow-pictures {
         display: none;
+    }
+
+    /*-----------Footer-----------*/
+    .footer-first-column h2,
+    .footer-second-column h2,
+    .footer-third-column h2 {
+        font-size: 30px;
+        text-align: center !important;
+    }
+
+    .footer-first-column p,
+    .footer-second-column p,
+    .footer-third-column p {
+        font-size: 16px;
+        text-align: center !important;
+    }
+
+    .footer-first-column,
+    .footer-second-column,
+    .footer-third-column {
+        float: none;
+    }
+
+    .footer-column-icons .icons-item {
+        text-align: center;
     }
 }
