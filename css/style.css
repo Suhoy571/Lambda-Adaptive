@@ -13,7 +13,10 @@
 .navbar .navbar-toggler {
     cursor: pointer;
 }
-
+.navbar-toggle-label {
+    font-family: 'Gentium Book Basic', serif;
+    color: white;
+}
 .navbar .nav-link {
     font-size: 21px;
     font-weight: 400;
