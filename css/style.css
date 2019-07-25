@@ -13,10 +13,12 @@
 .navbar .navbar-toggler {
     cursor: pointer;
 }
+
 .navbar-toggle-label {
     font-family: 'Gentium Book Basic', serif;
     color: white;
 }
+
 .navbar .nav-link {
     font-size: 21px;
     font-weight: 400;
@@ -188,19 +190,34 @@
 }
 
 /*--------------------Menu----------------------*/
+
+#menu .container {
+    display: flex;
+    flex-direction: column;
+}
+
 #menu {
     background: white url("../img/menuPattern.png") no-repeat;
     background-size: cover;
     min-height: 994px;
 }
 
+.menu-item {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
 .menu-title {
-    text-align: center !important;
+    text-align: center;
     margin-top: 100px;
     padding-bottom: 25px;
 }
 
 .menu-item h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 21px;
     border-bottom: solid 1px #c89f2d;
     padding-bottom: 7px;
@@ -213,12 +230,6 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: black;
-}
-
-.menu-item h3 span {
-    display: inline-block;
-    position: absolute;
-    right: 14px;
 }
 
 .menu-content h2 {
